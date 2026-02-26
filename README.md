@@ -19,4 +19,6 @@ Steps
 8. Install as you do  
 9. If your drive is undetected or the changes you make on your drive undetected by the "Install Fedora" program, you should reopen it, every changes need "Install Fedora" to be reopen
 
-Tips: if you are using nvidia GPU, and your system is not bootable, on the grub menu, the first option, press E to edit, at the first line that start with "linux" add "nomodeset". After setting up things, install nvidia driver, the "akmod" one
+Tip: if you are using nvidia GPU, and your system is not bootable, on the grub menu, the first option, press E to edit, at the first line that start with "linux" add "nomodeset", it is like using a basic driver just to display. After setting up things, dnf upgrade, install nvidia driver, the "akmod" one. 
+Another tip: if your partition name is wrong, you can fix it by using the uuid of your fat32 partition instead of CDLABEL, use AI for this
+
