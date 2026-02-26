@@ -1,6 +1,6 @@
 # A-way-to-install-fedora-without-usb
 ## Pre-installation
-### Warning: you should understand what you are doing, like press E to edit the section in the GRUB menu
+### Warning: you should understand what you are doing, like press E to edit the section in the GRUB menu, this is not a fully installation tutorial
 Things you will need
 * Your favorite fedora image
 * A partition management tool. you can use the "create and format ..." on windows
